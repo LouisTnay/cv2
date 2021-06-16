@@ -1,0 +1,9 @@
+#navName {
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 8px;
+}
+
+.bg-grey {
+    background-color: rgba(0,0,0,0.8);;
+}
