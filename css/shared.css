@@ -47,12 +47,12 @@ h2 {
 }
 
 #titles-div {
-    padding-top: 15%;
+    padding: 26vh 8% 0;
     text-align: center;
 }
 
 #nameDisplay {
-    font-size: 70px;
+    font-size: 9vh;
     /* color: rgb(41, 41, 41); */
 }
 
@@ -67,7 +67,7 @@ h2 {
 }
 
 #projects-container {
-    padding: 1.2rem 0 4rem;
+    padding: 1.2rem 0 5.5rem;
 }
 
 #projects-div {
@@ -76,20 +76,21 @@ h2 {
 }
 
 #projects-carousel-indicator {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    bottom: -50px;
 }
 
 .projects-grid-col {
-    padding-bottom: 1.4rem;
+    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
 }
 
 .projects-carousel-item {
     padding: 0 12% 0;
 }
 
-.card-body {
-    background-color: #ffffff;
+.card {
+    border-radius: 10px;
 }
 
 /* Education Section */
