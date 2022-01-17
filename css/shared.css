@@ -1,7 +1,34 @@
-@font-face {
+/* @font-face {
     font-family: "Caveat";
     src: url("../fonts/Caveat-VariableFont_wght.ttf");
 }
+
+.caveatFont {
+    font-family: "Caveat", "cursive";
+} */
+
+body {
+    font-family: 'Ubuntu' ,sans-serif;
+    color: #242424;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Serif Display', serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+/* Title Section */
 
 #navName {
     position: absolute;
@@ -9,18 +36,66 @@
     top: 8px;
 }
 
-.bg-blue {
-    background-color: #DEEDF0;
+.nav-item {
+    padding-left: 0.34rem;
+    padding-right: 0.34rem;
 }
 
-.caveatFont {
-    font-family: "Caveat", "cursive";
+#title {
+    background-color: #91caf0;
+    height: 85vh;
+}
+
+#titles-div {
+    padding-top: 15%;
+    text-align: center;
 }
 
 #nameDisplay {
+    font-size: 70px;
+    /* color: rgb(41, 41, 41); */
+}
+
+#subtitle {
+    font-family: 'Ubuntu' ,sans-serif;
+}
+
+/* Projects Section */
+
+#projects {
+    background-color: #eeeeee;
+}
+
+#projects-container {
+    padding: 1.2rem 0 4rem;
+}
+
+#projects-div {
     text-align: center;
-    padding-top: 15%;
-    padding-bottom: 15%;
-    padding-left: auto;
-    font-size: 60px;
+    padding: 4rem 0 0;
+}
+
+#projects-carousel-indicator {
+    position: relative;
+    top: 20px;
+}
+
+.projects-grid-col {
+    padding-bottom: 1.4rem;
+}
+
+.projects-carousel-item {
+    padding: 0 12% 0;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+/* Education Section */
+
+#education {
+    text-align: center;
+    background-color: #bbdefb;
+    padding: 5% 0 5%;
 }
