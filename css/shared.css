@@ -137,21 +137,26 @@ h4 {
 /* Skills Section */
 
 #skills {
-    padding: 4rem 0 2rem;
+    padding: 4rem 0 4.5rem;
 }
 
 #skills-titles {
-    padding-bottom: 2.2rem;
+    padding-bottom: 1.8rem;
     text-align: center;
+}
+
+#skills-accordion {
+    margin: 0 8% 0;
 }
 
 /* Contact Section */
 
-#contact {
+/* #contact {
     background-color: #90caf9;
-    padding: 4rem 0 2rem;
+    padding: 4rem 0 1rem;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    text-align: center;
 }
 
 #contact-titles {
@@ -159,27 +164,31 @@ h4 {
     text-align: center;
 }
 
+#contact-content {
+} */
+
 /* Footer */
 
 #footer {
     text-align: center;
     background-color: #90caf9;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px; 
 }
 
 #footer-div {
-    padding: 3.5rem 5rem 3.5rem;
-}
-
-#footer-text {
-    margin: 0;
+    padding: 4.5rem 5rem 3rem;
 }
 
 .footer-button {
     background: none;
     border: none;
     padding: 0 1rem 3rem;
+    display: inline;
+    color: #242424;
 }
 
-.footer-button:hover {
-    opacity: 60%;
+#footer-text {
+    margin-top: 2.5rem;
+    color: #494949;
 }
