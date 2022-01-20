@@ -52,13 +52,17 @@ h4 {
 
 #title {
     background-color: #91caf0;
-    height: 92vh;
+    /* height: 92vh; */
+    /* height: 45rem; */
+    /* height: 750px; */
     border-radius: 0 0 30px 30px;
 }
 
 #titles-div {
-    padding: 28vh 8% 0;
+    /* padding: 15rem 8% 17rem; */
+    padding: 27vh 8% 27vh;
     text-align: center;
+    
 }
 
 #nameDisplay {
@@ -171,7 +175,7 @@ h4 {
 
 #footer {
     text-align: center;
-    background-color: #90caf9;
+    background-color: #95caf5;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px; 
 }
