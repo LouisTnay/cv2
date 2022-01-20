@@ -67,10 +67,24 @@ h4 {
 
 #nameDisplay {
     /* color: rgb(41, 41, 41); */
+    display: inline;
 }
 
 #subtitle {
     font-family: 'Ubuntu' ,sans-serif;
+}
+
+@media (max-width: 767px) {
+    /* Smaller than large size */
+    h1 {
+        font-size: 52px;
+    }
+    h2  {
+        font-size: 45px;
+    }
+    #titles-div {
+        padding: 25vh 8% 25vh;
+    }
 }
 
 /* Projects Section */
